@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.section-articles{
+  background-color: #fffcf3;
+}
+
+.section-articles-title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container{
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Pages */
+
+@import './pages/post-details.css';
+@import './pages/404.css';
+
+/* Components */
+@import './components/article.css';
+@import './components/filter.css';
+@import './components/pagination.css'
+

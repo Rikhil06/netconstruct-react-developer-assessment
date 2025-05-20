@@ -1,0 +1,88 @@
+.card-title:first-letter{
+  text-transform: capitalize;
+}
+
+.card-colour{
+  height: 300px;
+  margin-bottom: 20px;
+  transition: all .3s ease-in-out;
+}
+
+article:hover .card-colour{
+  filter: brightness(80%);
+}
+
+article:first-of-type .card-colour{
+  background-color: #386641;
+}
+
+article:nth-of-type(2) .card-colour{
+  background-color: #6A994E;
+}
+
+article:nth-of-type(3) .card-colour{
+  background-color: #A7C957;
+}
+
+.card-cat{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 8px;
+}
+
+.card-cat span{
+  white-space: nowrap;
+  background-color: #BC4749;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.card-cat span:first-of-type{
+  margin-left: 0;
+}
+
+.card-cat span:last-of-type{
+  margin-right: 0;
+}
+
+.card-author{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card-author h3{
+  margin: 0;
+}
+
+.card-author img{
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.read-more{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+article:hover .read-more svg,
+.read-more:hover svg{
+  margin-right: 20px;
+}
+
+.read-more svg{
+  width: 20px;
+  transition: all .3s ease-in-out;
+}
